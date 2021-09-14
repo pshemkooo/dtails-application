@@ -1,0 +1,6 @@
+development:
+  password: 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
+  theme_id: 127267602623
+  store: dtails-application.myshopify.com
+  ignore_files:
+  - config/settings_data.json
