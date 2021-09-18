@@ -48,9 +48,10 @@ And that's it!
 
  1. In the email from us you will also have received a Theme ID. Replace the current `theme_id: 127267602623` in the `config.yml` file in the root directory of the theme.
  2. In your terminal, navigate to your theme repository.
- 3. Run `theme open`. This will open a preview of the Shopify theme in your browser. If you accidentally close the preview, you can just run the command again. The preview link looks like this: https://dtails-application.myshopify.com?preview_theme_id=127267602623
- 4. Run `theme watch`
- 5. Develop! It's really as simple as that, the process will watch for file changes in your theme, and upload them directly to Shopify for this specific theme. Reload the preview URL, and you will see your changes.
+ 3. Run `theme open`. This will open a preview of the Shopify theme in your browser (you will notice at the bottom of the window it says "You’re previewing: ..."). If you accidentally close the preview, you can just run the command again. The preview link looks like this: https://dtails-application.myshopify.com?preview_theme_id=127267602623
+ 4. The storefront is also password protected, so once opened in the browser, you will be asked for a password. The password is *dtailsapplication*. You should only be asked for this once.
+ 5. Run `theme watch`
+ 6. Develop! It's really as simple as that, the process will watch for file changes in your theme, and upload them directly to Shopify for this specific theme. Reload the preview URL, and you will see your changes.
 
 ## Task description
 
